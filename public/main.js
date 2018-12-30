@@ -68,7 +68,7 @@ fetch("http://localhost:3000/poll")
              // Enable pusher logging - don't include this in production
              Pusher.logToConsole = true;
         
-             var pusher = new Pusher('355bbcc1238451dd1d93', {
+             var pusher = new Pusher('2059fbdffa90df719947', {
                cluster: 'ap2',
                encrypted: true
              });
