@@ -9,11 +9,11 @@ const Pusher = require('pusher');
 const keys = require('../config/keys');
 
 var pusher = new Pusher({
-  appId: keys.pusherAppId,
-  key: keys.pusherKey,
-  secret: keys.pusherSecret,
-  cluster: keys.pusherCluster,
-  encrypted: keys.pusherEncrypted
+  appId: '681683',
+  key: '2059fbdffa90df719947',
+  secret: '225de17a6bc7ba5af2f4',
+  cluster: 'eu',
+  encrypted: true
 });
 
 router.get('/', (req, res) => {
@@ -32,7 +32,7 @@ router.post('/', (req, res) => {
       os: vote.os
     });
 
-    return res.json({ success: true, message: 'Thank you for voting' });
+    return res.json({ success: true, message: 'Thank you for voting keep going' });
   });
 });
 
