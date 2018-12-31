@@ -64,7 +64,7 @@ fetch("https://pusherpollvote.herokuapp.com/poll")
                 ]
             });
             chart.render();
-        
+            
              // Enable pusher logging - don't include this in production
              Pusher.logToConsole = true;
         
